@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+body{
+    margin: 0 auto;
+    background-color: #1A162B;
+    width: 390px;
+    height: auto;
+}
+
+nav{
+    margin: 0 auto;
+    width: 100%;
+    box-sizing: border-box;
+    height: 64px;
+    background-color: #141316;
+    color: #CAC0EF;
+    padding: 16px 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    
+}
+
+h1{
+    font-family: Sora;
+    font-size: 24px;
+    flex: 1;
+   
+}
+
+.btn-nav{
+    width: 18px;
+    height: 18px;
+    background-color: transparent;
+    border: none; 
+    padding: 0; 
+    cursor: pointer;
+    gap: 15px;
+    
+}
+
+footer p {
+    color: #CAC0EF;
+    text-align: center;
+
+}
+

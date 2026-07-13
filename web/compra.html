@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalle de Compra</title>
+    <link rel="stylesheet" href="css/body.css">
+    <link rel="stylesheet" href="css/estilo-compra.css">
+</head>
+
+<body>
+    <header>
+        <nav class="menu">
+            <h1>CINEPULSE</h1>
+        </nav>
+    </header>
+
+    <main>
+        <section class="detalle-compra">
+            <h2>Resumen de su compra</h2>
+            <div class="tarjeta-compra">
+                <div class="arriba">
+                    <figure class="pelicula-portada">
+                        <img id="compra-poster" src="" alt="portada">
+                    </figure>
+                    <div class="informacion-compra">
+                        <h3 id="compra-titulo">Cargando...</h3>
+                        <div class="formato">
+                            <p>IMAX</p>
+                            <p>Subtitulada</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="medio">
+                    <div class="fecha">
+                        <div class="lado-izquierdo">
+                            <figure class="iconos">
+                                <img src="imagenes/calendario.png" alt="calendario">
+                            </figure>
+                            <p>Función</p>
+                        </div>
+                        <p class="valor" id="compra-horario">Cargando...</p>
+                    </div>
+
+                    <div class="ubicacion">
+                        <div class="lado-izquierdo">
+                            <figure class="iconos">
+                                <img src="imagenes/ubi.png" alt="ubicacion">
+                            </figure>
+                            <p>Cine</p>
+                        </div>
+                        <p class="valor">CinePulse Centro</p>
+                    </div>
+
+                    <div class="asientos">
+                        <div class="lado-izquierdo">
+                            <figure class="iconos">
+                                <img src="imagenes/asientos.png" alt="asientos">
+                            </figure>
+                            <p>Asientos</p>
+                        </div>
+                        <p class="valor" id="compra-asientos">Ninguno</p>
+                    </div>
+                </div>
+
+                <div class="abajo">
+                    <div class="total">
+                        <p class="total-titulo">Total</p>
+                        <p class="valor-total" id="compra-total">$0.00</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="terminar-compra">
+            <h2>Finalizar <span>Compra</span></h2>
+
+            <div class="tarjeta-formulario">
+                <div class="titulo-formulario">
+                    <img src="imagenes/user.png" alt="Usuario" class="icono-formulario">
+                    <h2>Información de contacto</h2>
+                </div>
+
+                <form id="formulario-compra" class="formulario-contacto">
+                    <div class="campo-texto">
+                        <label for="nombre">Nombre Completo</label>
+                        <input type="text" id="nombre" placeholder="Ej. Juan Pérez" required>
+                    </div>
+
+                    <div class="campo-texto">
+                        <label for="correo">Correo Electrónico</label>
+                        <input type="email" id="correo" placeholder="tu@email.com" required>
+                        <p class="texto-ayuda">Enviaremos tus entradas a este correo.</p>
+                    </div>
+
+                    <div class="campo-texto">
+                        <label for="telefono">Teléfono <span class="texto-opcional">(Opcional)</span></label>
+                        <input type="tel" id="telefono" placeholder="+1 234 567 8900">
+                    </div>
+
+                    <button type="submit" class="btn-finalizar">
+                        FINALIZAR COMPRA →
+                    </button>
+
+                    <div class="pie-seguro">
+                        <img src="imagenes/candado.png" alt="Seguro" class="icono-formulario">
+                        <p>Pago seguro y encriptado</p>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 CinePulse. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="js/compra.js"></script>
+</body>
+
+</html>

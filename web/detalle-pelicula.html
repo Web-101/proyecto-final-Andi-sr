@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalle de pelicula</title>
+    <link rel="stylesheet" href="css/body.css">
+    <link rel="stylesheet" href="css/estilo-detalle.css">
+</head>
+
+<body>
+    <header>
+        <nav class="menu">
+            <h1>CINEPULSE</h1>
+            <button class="btn-nav">
+                <img src="imagenes/share.png" alt="Compartir">
+            </button>
+            <button class="btn-nav">
+                <img src="imagenes/info.png" alt="Información">
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <div class="contenedor-fondo-principal">
+            <figure class="fondo">
+                <img src="imagenes/fondo-cartelera.png" alt="fondo">
+                <div class="sombra"></div>
+            </figure>
+        </div>
+
+        <section class="contendor-detalle">
+            
+            <div class="portada">
+                <figure class="fondo-portada">
+                    <img id="portada-img" src="" alt="portada">
+                </figure>
+            </div>
+            
+            <div class="tarjeta-informacion">
+                <div class="informacion">
+                    <p>Clasificacion</p>
+                    <p class="clasificacion" id="clasificacion-texto"></p>
+                </div>
+
+                <div class="informacion">
+                    <p>Duracion</p>
+                    <p class="hora" id="duracion-texto"></p>
+                </div>
+
+                <div class="genero" id="contenedor-generos">
+                    
+                </div>
+            </div>
+
+            <div class="descripcion-pelicula">
+                <h2 id="titulo-pelicula"></h2>
+                
+                <div class="puntuacion">
+                    <span> ⭐ </span>
+                    <p>4.8 / 5</p>
+                </div>
+                
+                <p class="sinopsis" id="sinopsis-texto"></p>
+            </div>
+
+            <div class="funciones">
+                <h3>Funciones Hoy</h3>
+                <div class="tarjeta-horario">
+                    <div>
+                        <p class="cine">CinePulse</p>
+                        <div class="tipo-funcion">
+                            <button class="formato">IMAX</button>
+                            <button class="formato">Subtitulada</button>
+                        </div>
+                    </div>
+                    
+                    <div class="horarios" id="contenedor-horarios">
+                        
+                    </div>
+                </div>
+
+                <button class="btn-reserva" id="btn-reserva">Continuar Reserva</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 CinePulse. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="js/detalle.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compra finalizada</title>
+
+    <link rel="stylesheet" href="css/body.css">
+    <link rel="stylesheet" href="css/estilo-comprobante.css">
+</head>
+
+<body>
+    <header>
+        <nav class="menu">
+            <h1>CINEPULSE</h1>
+            <button class="btn-nav">
+                <img src="imagenes/share.png" alt="Compartir">
+            </button>
+            <button class="btn-nav">
+                <img src="imagenes/info.png" alt="Información">
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <div class="comprobante">
+            <h2>Comprobante de Compra</h2>
+
+            <p id="mensaje-gracias" class="mensaje-gracias">¡Gracias por tu compra!</p>
+
+            <div class="detalle-compra">
+                <p>Película:
+                    <span id="compra-pelicula">Cargando...</span>
+                </p>
+                <p>Horario:
+                    <span id="compra-horario"></span>
+                </p>
+                <p>Asientos:
+                    <span id="compra-asientos"></span>
+                </p>
+                <p>Total:
+                    <span id="compra-total"></span>
+                </p>
+            </div>
+
+            <button id="btn-volver" class="btn-volver">
+                Volver al Inicio
+            </button>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2026 CinePulse. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="js/comprobante.js"></script>
+</body>
+
+</html>

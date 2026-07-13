@@ -1,0 +1,270 @@
+ h2{
+    font-family: Sora;
+    font-weight: 600;
+    font-size: 22px;
+    margin-bottom: 16px;
+    color: #E6E1E5;
+}
+
+span{
+    color: #C95792;
+}
+
+.tarjeta-compra{
+    width: 350px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    background-color: #241F35;
+    margin: 0;
+    padding: 20px 20px;
+}
+
+.arriba{
+    display: flex;
+    gap: 16px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.pelicula-portada{
+    width: 84px;
+    height: 120px;
+    margin: 0;  
+}
+
+.pelicula-portada img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+.informacion-compra{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 0;
+}
+
+.informacion-compra h3{
+    font-family: Sora;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 0;
+    color: #E6E1E5;
+    padding-top: 4px;
+}
+
+.formato{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin: 0;
+    align-items: flex-start;
+}
+
+.formato p{
+    margin: 0;
+    font-family: Sora;
+    font-size: 10px;
+    font-weight: 200;
+    border: 1px solid #FFFFFF;
+    padding: 4px 8px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.08);
+
+    color: #CAC0EF;
+   
+}
+
+.medio{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 16px 0
+}
+
+.iconos{
+    width: 13.5px;
+    height: 15px;
+    display: flex;
+    margin: 0;
+    align-items: center;
+}
+.iconos img {
+    width: 100%;
+}
+
+.fecha, .ubicacion, .asientos{
+    width: 100%;
+    display: flex;
+    gap: 8px;
+    justify-content: space-between;
+}
+
+.lado-izquierdo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.lado-izquierdo p {
+    color: #C9C5CF;
+    font-family: Sora;
+    font-weight: 200;
+    font-size: 14px;
+    margin: 0;
+}
+
+.valor {
+    color: #E6E1E5;
+    font-family: Sora;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.total{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding-top: 16px;
+}
+
+.total-titulo{
+    color: #C9C5CF;
+    font-family: Sora;
+    font-weight: 200;
+    font-size: 18px;
+    margin: 0;
+}
+
+.valor-total{
+    color: #C95792;
+    font-family: Sora;
+    font-size: 32px;
+    font-weight: 600;
+    margin: 0;
+}
+
+
+.tarjeta-formulario {
+    width: 350px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    background-color: #241F35;
+    margin: 0;
+    padding: 20px 20px;
+}
+
+.titulo-formulario {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 24px;
+}
+
+.icono-formulario {
+    width: 13px;
+    height: 13px;
+}
+
+.titulo-formulario h2{
+    font-family: Sora;
+    font-weight: 400;
+    font-size: 16px;
+    color: #E6E1E5;
+    line-height: 27px;
+    
+    margin: 0;
+}
+
+.formulario-contacto {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+}
+
+.campo-texto {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.campo-texto label {
+    color: #E6E1E5;
+    font-family: Sora;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.texto-opcional {
+    color: #8C8797;
+    font-weight: 300;
+}
+
+.campo-texto input {
+    width: 301px;
+    height: 30px;
+    background-color: #1A1625;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    padding: 14px 16px;
+    
+    color: #E6E1E5;
+    font-family: Sora;
+    font-size: 14px;
+}
+
+.campo-texto input::placeholder {
+    color: #8C8797;
+    font-family: Sora;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.texto-ayuda {
+    color: #4C465E; 
+    font-family: Sora;
+    font-size: 12px;
+    
+    margin: 0;
+    margin-top: 0px; 
+}
+
+.btn-finalizar{ 
+    width: 350px;
+    height: 48px;
+    background: linear-gradient(to right, #C95792 0%, #7C4585 100%);
+    padding: 12px 0;
+    border-radius: 12px;
+    border: none;
+    margin-top: 10px;
+
+    color: #FFFFFF;
+    font-family: Sora;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.pie-seguro {
+    display: flex;
+    gap: 8px;
+    margin-top: 12px;
+    justify-content: center;
+}
+
+.pie-seguro p {
+    color: #4C465E;
+    font-family: 'Sora', sans-serif;
+    font-size: 11px;
+    margin: 0;
+}
+
+

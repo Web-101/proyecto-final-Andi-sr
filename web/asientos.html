@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escoger asientos</title>
+    <link rel="stylesheet" href="css/body.css">
+    <link rel="stylesheet" href="css/estilo-asientos.css">
+</head>
+
+<body>
+    <header>
+        <nav class="menu">
+            <h1>CINEPULSE</h1>
+            <button class="btn-nav">
+                <img src="imagenes/share.png" alt="Compartir">
+            </button>
+            <button class="btn-nav">
+                <img src="imagenes/info.png" alt="Información">
+            </button>
+        </nav>
+    </header>
+
+    <section class="sala-cine">
+
+        <div class="zona-pantalla">
+            <div class="linea-pantalla"></div>
+            <p>PANTALLA</p>
+        </div>
+
+        <div id="contenedor-asientos">
+            
+        </div>
+
+        <div class="numeros-fila">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <div class="pasillo"></div>
+            <span>5</span>
+            <span>6</span>
+            <span>7</span>
+            <span>8</span>
+        </div>
+
+        <div class="leyenda">
+            <div class="item-leyenda">
+                <div class="asiento-demo"></div>
+                <span>Desocupados</span>
+            </div>
+            <div class="item-leyenda">
+                <div class="asiento-demo ocupado"></div>
+                <span>Ocupados</span>
+            </div>
+            <div class="item-leyenda">
+                <div class="asiento-demo seleccionado"></div>
+                <span>Seleccionados</span>
+            </div>
+        </div>
+    </section>
+
+   <section class="detalle-pago">
+    <div class="tarjeta-pago">
+        
+        <div class="arriba">
+            <figure class="portada">
+                <img id="portada-resumen" src="imagenes/portada.png" alt="portada">
+            </figure>
+            
+            <div class="lado-derecho">
+                <p class="nombre" id="nombre-resumen">Cargando...</p>
+
+                <div class="fecha">
+                    <img src="imagenes/calendario.png" alt="calendario" class="icono-pequeno">
+                    <p id="fecha-resumen">Cargando horario...</p>
+                </div>
+
+                <div class="ubicacion">
+                    <img src="imagenes/ubi.png" alt="ubicacion" class="icono-pequeno">
+                    <p>Cine 1, CinePulse</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="abajo">
+            <div class="seleccion">
+                <p class="nombre-detalle">Asientos Seleccionados</p>
+                <p class="asignacion-asientos" id="asientos-resumen">Ninguno</p>
+            </div>
+            
+            <div class="precio-total">
+                <p class="nombre-detalle">Precio Total</p>
+                <p class="precio" id="precio-resumen">$0.00</p>
+            </div>
+        </div>
+
+    </div>
+    <button class="btn-continuar" id="btn-continuar">Continuar</button> 
+</section>
+
+    <footer>
+        <p>© 2026 CinePulse. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="js/asientos.js"></script>
+</body>
+
+</html>

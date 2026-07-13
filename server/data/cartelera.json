@@ -1,0 +1,44 @@
+{
+  "peliculas": [
+    {
+      "id": 1,
+      "titulo": "Enredados",
+      "poster": "imagenes/portadas/enredados.jpeg",
+      "genero": ["Aventura", "Fantasía"],
+      "duracion": "1h 40m",
+      "clasificacion": "ATP",
+      "sinopsis": "La joven Rapunzel, de cabello mágico y criada en una torre, escapa junto al carismático ladrón Flynn Rider para descubrir el mundo y encontrar su verdadero destino.",
+      "funciones": ["15:30", "18:00", "20:30"]
+    },
+    {
+      "id": 2,
+      "titulo": "Frozen: Una aventura congelada",
+      "poster": "imagenes/portadas/frozen.jpeg",
+      "genero": ["Aventura", "Musical"],
+      "duracion": "1h 42m",
+      "clasificacion": "ATP",
+      "sinopsis": "Anna emprende un viaje para encontrar a su hermana Elsa, cuyos poderes helados han sumido al reino de Arendelle en un invierno eterno.",
+      "funciones": ["16:00", "18:30", "21:00"]
+    },
+    {
+      "id": 3,
+      "titulo": "El Rey León",
+      "poster": "imagenes/portadas/reyleon.jpg",
+      "genero": ["Aventura", "Drama"],
+      "duracion": "1h 28m",
+      "clasificacion": "ATP",
+      "sinopsis": "El joven león Simba debe enfrentar su pasado y reclamar su lugar como rey tras la muerte de su padre, Mufasa.",
+      "funciones": ["14:30", "17:00", "19:30"]
+    },
+    {
+      "id": 4,
+      "titulo": "Big Hero 6",
+      "poster": "imagenes/portadas/bighero.jpeg",
+      "genero": ["Aventura", "Acción"],
+      "duracion": "1h 42m",
+      "clasificacion": "ATP",
+      "sinopsis": "El prodigio Hiro Hamada forma un equipo de héroes junto al robot Baymax para detener a un peligroso villano en la futurista ciudad de San Fransokyo.",
+      "funciones": ["15:45", "18:15", "20:45"]
+    }
+  ]
+}

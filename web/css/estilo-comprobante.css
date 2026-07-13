@@ -1,0 +1,55 @@
+h2{
+    font-family: Sora;
+    font-weight: 600;
+    font-size: 18px;
+    color: #9e4f8b;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.mensaje-gracias{
+    font-family: Sora;
+    font-weight: 600;
+    font-size: 14px;
+    color: #E6E1E5;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.detalle-compra{
+    width: 350px;
+    padding: 16px 16px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    background-color: #241F35;
+    margin: 0;
+
+    color: #E6E1E5;
+    font-family: Sora;
+    font-size: 14px;
+}
+
+.detalle-compra p{
+    font-weight: 600;
+}
+
+.detalle-compra span{
+    font-weight: 300;
+}
+
+.btn-volver{
+    width: 380px;
+    height: 48px;
+    background: linear-gradient(to right, #C95792 0%, #7C4585 100%);
+    padding: 12px 0;
+    border-radius: 12px;
+    border: none;
+    margin-top: 30px;
+
+    color: #FFFFFF;
+    font-family: Sora;
+    font-size: 14px;
+    cursor: pointer;
+}
